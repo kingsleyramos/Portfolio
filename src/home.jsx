@@ -24,7 +24,7 @@ const SlideList = [
 ]
 const PortfolioLanding = () => {
     let title = 'About Me',
-        description = "I am an ambitions Full Stack Developer with a long background of IT, a tech enthusiast, passionate photographer, and an eager learner. Pushing the world toward a new way of using technology to advise, benefit, and provide service to others is a motivator to learn more.";
+        description = "I'm an ambitious Full Stack Developer with a long background of IT, tech enthusiast, passionate photographer, and an eager learner. Pushing the world toward a new way of using technology to advise, benefit, and provide service to others is a motivator to learn more.";
     const PostList = BlogContent.slice(0 , 5);
     return (
         <div className="active-dark">

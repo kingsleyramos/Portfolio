@@ -18,7 +18,7 @@ const PortfolioListContent = [
     {
         image: 'image-3',
         category: 'Development',
-        title: "Let's eat some burgers",
+        title: "Baby it's cold outside",
         link: "https://kingsleyramos.github.io/Weather-Dashboard/",
         repo: "https://github.com/kingsleyramos/Weather-Dashboard"
     }
