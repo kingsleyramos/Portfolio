@@ -8,8 +8,10 @@ import FooterTwo from "./component/footer/FooterTwo";
 import TabTwo from "./elements/tab/TabTwo";
 import ContactThree from "./elements/contact/ContactThree";
 import PortfolioList from "./elements/portfolio/PortfolioList";
-import ServiceList from "./elements/service/ServiceList";
-import BlogContent from "./elements/blog/BlogContent";
+// import ServiceList from "./elements/service/ServiceList";
+// import BlogContent from "./elements/blog/BlogContent";
+
+import Fade from 'react-reveal/Fade';
 
 import './index.scss';
 
@@ -25,7 +27,7 @@ const SlideList = [
 const PortfolioLanding = () => {
     let title = 'About Me',
         description = "I'm an ambitious Full Stack Developer with a long background of IT, tech enthusiast, passionate photographer, and an eager learner. Pushing the world toward a new way of using technology to advise, benefit, and provide service to others is a motivator to learn more.";
-    const PostList = BlogContent.slice(0 , 5);
+    // const PostList = BlogContent.slice(0 , 5);
     return (
         <div className="active-dark">
             <Helmet pageTitle="Kingsley Ramos" />
@@ -42,14 +44,17 @@ const PortfolioLanding = () => {
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
                                             {value.category ? <span>{value.category}</span> : ''}
-                                            <h1 className="title">Hi, I’m Kingsley<br/>
-                                            <TextLoop>
-                                                <span> Developer.</span>
-                                                <span> IT.</span>
-                                                <span> Photographer.</span>
-                                            </TextLoop>{" "}
+
+                                            <h1 className="title"><Fade delay={200} duration={2000}>Hi, I’m Kingsley</Fade>
+                                                <Fade delay={400} duration={2000}>
+                                                    <TextLoop>
+                                                        <span> Developer.</span>
+                                                        <span> IT.</span>
+                                                        <span> Photographer.</span>
+                                                    </TextLoop>
+                                                </Fade>
                                             </h1>
-                                            <h2>based in Los Angeles.</h2>
+                                            <Fade delay={800} duration={2000}><h2>based in Los Angeles.</h2></Fade>
                                             {value.description ? <p className="description">{value.description}</p> : ''}
                                             {value.buttonText ? <div className="slide-btn"><a className="rn-button-style--2 btn-primary-color" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''}
                                         </div>
@@ -78,7 +83,7 @@ const PortfolioLanding = () => {
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">{title}</h2>
-                                            <p className="description">{description}</p>
+                                            <Fade bottom cascade delay={200}><p className="description">{description}</p></Fade>
                                         </div>
                                         <div className="row mt--30">
                                             <TabTwo tabStyle="tab-style--1" />

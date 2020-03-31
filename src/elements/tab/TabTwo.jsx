@@ -1,14 +1,20 @@
 import React, { Component } from "react";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import Fade from 'react-reveal/Fade';
+// import TransitionGroup from 'react-transition-group/TransitionGroup';
+// import { AccordionItemState } from "react-accessible-accordion";
+
+
 
 class TabsTwo extends Component{
     render(){
         let 
         tab1 = "Main skills",
-        tab2 = "Awards",
+        // tab2 = "Awards",
         tab3 = "Experience",
         tab4 = "Education & Certification";
         const { tabStyle } = this.props
+
         return(
             <div>
                 {/* Start Tabs Area */}
@@ -26,6 +32,7 @@ class TabsTwo extends Component{
 
                                     <TabPanel>
                                         <div className="single-tab-content">
+                                        <Fade right cascade>
                                             <ul>
                                                 <li>
                                                     <a>Full Stack Development<span></span></a>
@@ -40,7 +47,9 @@ class TabsTwo extends Component{
                                                     Portraiture 
                                                 </li>
                                             </ul>
+                                        </Fade>
                                         </div>
+                                        
                                     </TabPanel>
 
                                     {/* <TabPanel>
@@ -63,6 +72,7 @@ class TabsTwo extends Component{
 
                                     <TabPanel>
                                        <div className="single-tab-content">
+                                        <Fade right cascade >
                                            <ul>
                                                <li>
                                                    <a>Full Stack Developer<span> - Freelance</span></a> 2020 - Current
@@ -74,11 +84,14 @@ class TabsTwo extends Component{
                                                    <a>Service Desk Analyst<span> - SDSU Research Foundation</span></a> 2016 - 2018
                                                </li>
                                            </ul>
+                                           </Fade>
                                        </div>
+                                       
                                     </TabPanel>
 
                                     <TabPanel>
                                        <div className="single-tab-content">
+                                       <Fade right cascade >
                                            <ul>
                                                <li>
                                                    <a>Full Stack Development Certificate<span> - UCLA Extension</span></a> 2020
@@ -90,6 +103,7 @@ class TabsTwo extends Component{
                                                    <a> <br></br><span></span> </a><br></br> 
                                                </li>
                                            </ul>
+                                        </Fade>
                                        </div>
                                     </TabPanel>
                                     

@@ -1,4 +1,6 @@
-import React, { Component, useState } from "react";
+import React, { 
+    // Component,
+     useState } from "react";
 import * as emailjs from 'emailjs-com';
 
 const ContactThree = (props) =>{
