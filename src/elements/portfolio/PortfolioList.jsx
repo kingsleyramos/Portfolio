@@ -7,7 +7,7 @@ const PortfolioListContent = [
         image: 'image-1',
         category: 'Development',
         title: 'Sign up and track your workouts',
-        link: "https://young-fortress-67767.herokuapp.com/",
+        link: "https://kingsleyramos-workout-tracker.herokuapp.com/",
         repo: "https://github.com/kingsleyramos/Workout-Tracker"
     },
     {
