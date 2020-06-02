@@ -55,8 +55,9 @@ const ContactThree = (props) =>{
                             <div className="section-title text-left mb--50">
                                 <h2 className="title">{props.contactTitle}</h2>
                                 <p className="description">And i'll send you a hello!
-                                    {/* <a href="tel:+8801923088574">01923 088574</a> or email:
-                                    <a href="mailto:kingsleyramos@gmail.com"> kingsleyramos@gmail.com</a> */}
+                                    <br></br>
+                                    <a href="mailto:kingsleyramos@gmail.com"> kingsleyramos@gmail.com</a><br></br>
+                                    <a href="tel:+18585220322">+1 (858) 522-0322</a>
                                 </p>
                             </div>
                             <div className="form-wrapper">
