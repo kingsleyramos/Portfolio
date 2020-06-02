@@ -14,7 +14,7 @@ const PortfolioListContent = [
         image: 'image-2',
         category: 'Development',
         title: "Let's eat some burgers",
-        link: "https://quiet-inlet-38466.herokuapp.com/",
+        link: "https://kingsleyramos-burger.herokuapp.com/",
         repo: "https://github.com/kingsleyramos/burger"
     },
     {
