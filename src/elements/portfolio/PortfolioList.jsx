@@ -2,34 +2,37 @@ import React, { Component } from "react";
 import Fade from 'react-reveal/Zoom';
 
 
-const PortfolioListContent = [
-    {
-        image: 'image-1',
-        category: 'Development',
-        title: 'Sign up and track your workouts',
-        link: "https://kingsleyramos-workout-tracker.herokuapp.com/",
-        repo: "https://github.com/kingsleyramos/Workout-Tracker"
-    },
-    {
-        image: 'image-2',
-        category: 'Development',
-        title: "Let's eat some burgers",
-        link: "https://kingsleyramos-burger.herokuapp.com/",
-        repo: "https://github.com/kingsleyramos/burger"
-    },
-    {
-        image: 'image-3',
-        category: 'Development',
-        title: "Baby it's cold outside",
-        link: "https://kingsleyramos.github.io/Weather-Dashboard/",
-        repo: "https://github.com/kingsleyramos/Weather-Dashboard"
-    }
-]
+// const PortfolioListContent = [
+//     {
+//         image: 'image-1',
+//         category: 'Development',
+//         title: 'Sign up and track your workouts',
+//         link: "https://kingsleyramos-workout-tracker.herokuapp.com/",
+//         repo: "https://github.com/kingsleyramos/Workout-Tracker"
+//     },
+//     {
+//         image: 'image-2',
+//         category: 'Development',
+//         title: "Let's eat some burgers",
+//         link: "https://kingsleyramos-burger.herokuapp.com/",
+//         repo: "https://github.com/kingsleyramos/burger"
+//     },
+//     {
+//         image: 'image-3',
+//         category: 'Development',
+//         title: "Baby it's cold outside",
+//         link: "https://kingsleyramos.github.io/Weather-Dashboard/",
+//         repo: "https://github.com/kingsleyramos/Weather-Dashboard"
+//     }
+// ]
 
 class PortfolioList extends Component{
     render(){
-        const {column , styevariation } = this.props;
-        const list = PortfolioListContent.slice(0 , this.props.item);
+        // const {column , styevariation } = this.props;
+        // const list = PortfolioListContent.slice(0 , this.props.item);
+        const {column , styevariation, content} = this.props;
+        console.log(this.props.content)
+        const list = content.slice(0 , this.props.item);
         return(
             <React.Fragment>
                 {list.map((value , index) => (
