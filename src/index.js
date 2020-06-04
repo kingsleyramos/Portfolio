@@ -48,7 +48,7 @@ import error404 from "./elements/error404";
 // import Team from "./blocks/Team";
 // import Counters from "./blocks/Counters";
 // import Testimonial from "./blocks/Testimonial";
-// import Portfolio from "./blocks/Portfolio";
+import Portfolio from "./blocks/Portfolio";
 // import VideoPopup from "./blocks/VideoPopup";
 // import Gallery from "./blocks/Gallery";
 // import Brand from "./blocks/Brand";
@@ -107,9 +107,9 @@ class Root extends Component{
                     {/* Blocks Elements  */}
                     {/* <Route exact path={`${process.env.PUBLIC_URL}/team`} component={Team}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/counters`} component={Counters}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/testimonial`} component={Testimonial}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/testimonial`} component={Testimonial}/> */}
                     <Route exact path={`${process.env.PUBLIC_URL}/portfolio`} component={Portfolio}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/video-popup`} component={VideoPopup}/>
+                    {/* <Route exact path={`${process.env.PUBLIC_URL}/video-popup`} component={VideoPopup}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/gallery`} component={Gallery}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/clint-logo`} component={Brand}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/progressbar`} component={ProgressBar}/>
