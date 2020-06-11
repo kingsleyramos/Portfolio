@@ -42,30 +42,6 @@ const list = [
     }
 ]
 
-const PortfolioListContent = [
-    {
-        image: 'image-1',
-        category: 'Development',
-        title: 'Sign up and track your workouts',
-        link: "https://kingsleyramos-workout-tracker.herokuapp.com/",
-        repo: "https://github.com/kingsleyramos/Workout-Tracker"
-    },
-    {
-        image: 'image-2',
-        category: 'Development',
-        title: "Let's eat some burgers",
-        link: "https://kingsleyramos-burger.herokuapp.com/",
-        repo: "https://github.com/kingsleyramos/burger"
-    },
-    {
-        image: 'image-3',
-        category: 'Development',
-        title: "Baby it's cold outside",
-        link: "https://kingsleyramos.github.io/Weather-Dashboard/",
-        repo: "https://github.com/kingsleyramos/Weather-Dashboard"
-    }
-]
-
 class Portfolio extends Component{
     render(){
         return(
@@ -132,7 +108,7 @@ class Portfolio extends Component{
                                 </div>
                             </div>
                             <div className="row">
-                                <PortfolioList styevariation="text-left mt--40" column="col-lg-4 col-md-6 col-sm-6 col-12" item="6" asdf="hello" />
+                                <PortfolioList styevariation="text-left mt--40" column="col-lg-4 col-md-6 col-sm-6 col-12" item="6" />
                             </div>
                             <div className="row">
                                 <div className="col-lg-12">
