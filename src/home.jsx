@@ -8,8 +8,9 @@ import FooterTwo from "./component/footer/FooterTwo";
 import TabTwo from "./elements/tab/TabTwo";
 import ContactThree from "./elements/contact/ContactThree";
 import PortfolioList from "./elements/portfolio/PortfolioList";
-// import ServiceList from "./elements/service/ServiceList";
+import ServiceList from "./elements/service/ServiceList";
 // import BlogContent from "./elements/blog/BlogContent";
+import TestimonialOne from "./blocks/testimonial/TestimonialOne.jsx";
 
 import Fade from 'react-reveal/Fade';
 
@@ -124,27 +125,6 @@ const PortfolioLanding = () => {
             
             {/* End About Area */}
 
-            {/* Start Service Area  */}
-            {/* <div id="service" className="fix">
-                <div className="service-area creative-service-wrapper ptb--120 bg_color--5" >
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                                    <h2 className="title">My Awesome Service</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row creative-service">
-                            <div className="col-lg-12">
-                                <ServiceList item="6" column="col-lg-4 col-md-6 col-sm-6 col-12 text-left" />
-                            </div>
-                        </div>
-                    </div>
-                </div>  
-            </div> */}
-            {/* End Service Area  */} 
 
             {/* Start Portfolio Area */}
             <div id="portfolio" className="fix">
@@ -154,7 +134,7 @@ const PortfolioLanding = () => {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                                        <h2 className="title">My Project</h2>
+                                        <h2 className="title">Projects</h2>
                                         <p>{/* Subtext */}</p>
                                     </div>
                                 </div>
@@ -212,9 +192,39 @@ const PortfolioLanding = () => {
             </div> */}
             {/* End Blog Area */}
 
+
+
+            {/* Start Service Area  */}
+            <div id="service" className="fix">
+                <div className="service-area creative-service-wrapper ptb--120 bg_color--1" >
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
+                                    <h2 className="title">Testimonials</h2>
+                                    {/* <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p> */}
+                                </div>
+                            </div>
+                        </div>                
+                        {/* <div className="row creative-service">
+                            <div className="col-lg-12">
+                                <ServiceList item="6" column="col-lg-4 col-md-6 col-sm-6 col-12 text-left" />
+                            </div>
+                        </div> */}
+                           
+                        <div className="rn-testimonial-area bg_color--1 pt--80">
+                            <div className="container">
+                                <TestimonialOne />
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            {/* End Service Area  */} 
+
             {/* Start COntact Area */}
             <div id="contact" className="fix">
-                <div className="rn-contact-area ptb--120 bg_color--1">
+                <div className="rn-contact-area ptb--120 bg_color--5">
                     <ContactThree contactImages="/assets/images/about/about-9.jpg" contactTitle="Say Hello!" />
                 </div>
             </div>
