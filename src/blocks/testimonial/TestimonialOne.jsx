@@ -8,10 +8,10 @@ const TestimonialOne = () => {
                     <TabPanel>
                         <div className="rn-testimonial-content text-center">
                             <div className="inner">
-                                <p>Aklima The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
+                                <p> I enjoyed working with Kingsley on a project that needed a team of skilled software developers. Kingsley played a critical part in understanding our networking needs for the project and implemented these features into the software accordingly. The software project was a success thanks to Kingsley and the team. I recommend Kingsley for anyone who is in need for a full-stack web developer.</p>
                             </div>
                             <div className="author-info">
-                                <h6><span>Aklima </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
+                                <h6><span>David Wang</span> - Principal Hardware Engineer, Mimyr</h6>
                             </div>
                         </div>
                     </TabPanel>
@@ -19,14 +19,14 @@ const TestimonialOne = () => {
                     <TabPanel>
                         <div className="rn-testimonial-content text-center">
                             <div className="inner">
-                                <p>Fatima Asrafy standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
+                                <p>Kingsley was also highly self-motivated and put himself into a group with other motivated individuals to complete projects for real clients during his project weeks. Kingsley was able to complete all of this while also working full time as an IT Coordinator. I was so impressed by Kingsley's progression in the course that I offered him a spot in the Software Engineering Internship program at DataSlate, my own company. Since then, Kingsley has been working hard to complete his AWS certification and work on an internal project.</p>
                             </div>
                             <div className="author-info">
-                                <h6><span>Fatima Asrafy </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
+                                <h6><span>Omar Patel</span> - Owner, DataSlate, L.L.C.</h6>
                             </div>
                         </div>
                     </TabPanel>
-                    <TabPanel>
+                    {/* <TabPanel>
                         <div className="rn-testimonial-content text-center">
                             <div className="inner">
                                 <p>Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
@@ -88,7 +88,7 @@ const TestimonialOne = () => {
                                 <h6><span>JON CUMMINS </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
                             </div>
                         </div>
-                    </TabPanel>
+                    </TabPanel> */}
                     
                     <TabList className="testimonial-thumb-wrapper">
                         <Tab>
@@ -105,7 +105,7 @@ const TestimonialOne = () => {
                                 </div>
                             </div>
                         </Tab>
-                        <Tab>
+                        {/* <Tab>
                             <div className="testimonial-thumbnai">
                                 <div className="thumb">
                                     <img src="/assets/images/client/testimonial-3.jpg" alt="Testimonial Images"/>
@@ -146,7 +146,7 @@ const TestimonialOne = () => {
                                     <img src="/assets/images/client/testimonial-8.jpg" alt="Testimonial Images"/>
                                 </div>
                             </div>
-                        </Tab>
+                        </Tab> */}
                     </TabList>
 
                 </Tabs>
