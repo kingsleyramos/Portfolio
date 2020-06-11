@@ -24,7 +24,8 @@ const Testimonial = () => {
             <main className="page-wrapper">
 
                 {/* Start Testimonia Area  */}
-                <div className="rn-testimonial-area bg_color--1 ptb--120">
+                {/* <div className="rn-testimonial-area bg_color--1 ptb--120"> */}
+                <div className="rn-testimonial-area bg_color--5 ptb--120">
                     <div className="container">
                         <TestimonialOne />
                     </div>
