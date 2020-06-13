@@ -75,8 +75,24 @@
             background-image: url('/assets/images/gifs/gif-3.gif') !important;
         }
 
+        // &.image-4 {
+        //     background-image: url(/assets/images/portfolio/portfolio-4.jpg);
+        // }
+
         &.image-4 {
-            background-image: url(/assets/images/portfolio/portfolio-4.jpg);
+            background-image: url('/assets/images/gifs/gif-4.gif') !important;
+        }
+
+        &.image-5 {
+            background-image: url('/assets/images/portfolio/portfolio-4 copy.jpg');
+        }
+
+        &.image-6 {
+            background-image: url('/assets/images/gifs/gif-5.gif');
+        }
+
+        &.image-7 {
+            background-image: url('/assets/images/portfolio/portfolio-5 copy.jpg');
         }
 
         &::after{
