@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Fade from 'react-reveal/Zoom';
 
-
 // const PortfolioListContent = [
 //     {
 //         image: 'image-1',
@@ -26,17 +25,29 @@ import Fade from 'react-reveal/Zoom';
 //     }
 // ]
 
+function Button(props){
+    if (props.link === ""){
+        return null
+    }
+
+    return(
+        <div className="portfolio-button">
+            <a className="rn-btn" href={props.link}>View App</a>
+        </div>
+    )
+}
+
 class PortfolioList extends Component{
     render(){
         // const {column , styevariation } = this.props;
         // const list = PortfolioListContent.slice(0 , this.props.item);
         const {column , styevariation, content} = this.props;
-        console.log(this.props.content)
+        console.log(this.props)
         const list = content.slice(0 , this.props.item);
         return(
             <React.Fragment>
                 {list.map((value , index) => (
-                    <Fade bottom delay={200} duration={1000} key={index}>
+                    
                         <div className={`${column}`} key={index}>
                             <div className={`portfolio ${styevariation}`}>
                                 <div className="thumbnail-inner">
@@ -45,19 +56,21 @@ class PortfolioList extends Component{
                                 </div>
                                 <div className="content">
                                     <div className="inner">
-                                        {/* <p>{value.category}</p> */}
                                         <h4><a href="/portfolio-details">{value.title}</a></h4>
-                                        <div className="portfolio-button">
+                                        <p>{value.category}</p>
+                                        {/* <div className="portfolio-button">
                                             <a className="rn-btn" href={value.link}>View App</a>
-                                        </div>
+                                        </div> */}
+                                        <Button link={value.link} />
                                         <div className="portfolio-button">
                                             <a className="rn-btn" href={value.repo}>View Repo</a>
                                         </div>
+                                        {/* <PortfolioButton link={value.link} text={"Button Test"} {() => this.hideComponent(value.link)} /> */}
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </Fade>
+                    
                 ))}
             </React.Fragment>
         )
