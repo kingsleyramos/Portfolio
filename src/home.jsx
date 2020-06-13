@@ -30,21 +30,21 @@ const SlideList = [
 const PortfolioListContent = [
     {
         image: 'image-1',
-        category: 'Development',
+        category: 'Application will enable you to view, create, and track daily workouts with the ability to log any exercise information or notes needed.',
         title: 'Sign up and track your workouts',
         link: "https://kingsleyramos-workout-tracker.herokuapp.com/",
         repo: "https://github.com/kingsleyramos/Workout-Tracker"
     },
     {
         image: 'image-2',
-        category: 'Development',
+        category: 'This application will log the burgers you will and the the burgers you have eaten so you can always remember those great burgers.',
         title: "Let's eat some burgers",
         link: "https://kingsleyramos-burger.herokuapp.com/",
         repo: "https://github.com/kingsleyramos/burger"
     },
     {
         image: 'image-3',
-        category: 'Development',
+        category: 'This responsive application displays the current weather and weather forecast of a city that is search and saves the searched city.',
         title: "Baby it's cold outside",
         link: "https://kingsleyramos.github.io/Weather-Dashboard/",
         repo: "https://github.com/kingsleyramos/Weather-Dashboard"
@@ -145,7 +145,7 @@ const PortfolioLanding = () => {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="view-more-btn mt--60 mt_sm--30 text-center">
-                                        <a className="rn-button-style--2 btn-solid" href="/blog"><span>View Github</span></a>
+                                        <a className="rn-button-style--2 btn-solid" href="/portfolio"><span>View More</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -222,7 +222,7 @@ const PortfolioLanding = () => {
             </div>
             {/* End Service Area  */} 
 
-            {/* Start COntact Area */}
+            {/* Start Contact Area */}
             <div id="contact" className="fix">
                 <div className="rn-contact-area ptb--120 bg_color--5">
                     <ContactThree contactImages="/assets/images/about/about-9.jpg" contactTitle="Say Hello!" />
