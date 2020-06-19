@@ -8,7 +8,7 @@ import FooterTwo from "./component/footer/FooterTwo";
 import TabTwo from "./elements/tab/TabTwo";
 import ContactThree from "./elements/contact/ContactThree";
 import PortfolioList from "./elements/portfolio/PortfolioList";
-import ServiceList from "./elements/service/ServiceList";
+//import ServiceList from "./elements/service/ServiceList";
 // import BlogContent from "./elements/blog/BlogContent";
 import TestimonialOne from "./blocks/testimonial/TestimonialOne.jsx";
 
@@ -31,6 +31,7 @@ const PortfolioListContent = [
     {
         image: 'image-1',
         category: 'Application will enable you to view, create, and track daily workouts with the ability to log any exercise information or notes needed.',
+        technologies: 'Bootstrap, JQuery, Heroku, Express, Handlebars, MongoJS, Mongoose',
         title: 'Sign up and track your workouts',
         link: "https://kingsleyramos-workout-tracker.herokuapp.com/",
         repo: "https://github.com/kingsleyramos/Workout-Tracker"
@@ -38,6 +39,7 @@ const PortfolioListContent = [
     {
         image: 'image-2',
         category: 'This application will log the burgers you will and the the burgers you have eaten so you can always remember those great burgers.',
+        technologies: 'Bootstrap, JQuery, Heroku, Express, Handlebars, MySQL',
         title: "Let's eat some burgers",
         link: "https://kingsleyramos-burger.herokuapp.com/",
         repo: "https://github.com/kingsleyramos/burger"
@@ -45,6 +47,7 @@ const PortfolioListContent = [
     {
         image: 'image-3',
         category: 'This responsive application displays the current weather and weather forecast of a city that is search and saves the searched city.',
+        technologies: 'Bootstrap, JQuery, Moment.js, OpenWeather API',
         title: "Baby it's cold outside",
         link: "https://kingsleyramos.github.io/Weather-Dashboard/",
         repo: "https://github.com/kingsleyramos/Weather-Dashboard"
