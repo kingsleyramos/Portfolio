@@ -4,11 +4,11 @@ import Breadcrumb from "../elements/common/Breadcrumb";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
-import Footer from "../component/footer/Footer";
+//import Footer from "../component/footer/Footer";
 import FooterTwo from "../component/footer/FooterTwo";
-import Slider from "react-slick";
+//import Slider from "react-slick";
 import PortfolioList from "../elements/portfolio/PortfolioList";
-import { slickDot , portfolioSlick2 } from "../page-demo/script";
+//import { slickDot , portfolioSlick2 } from "../page-demo/script";
 import ContactThree from "../elements/contact/ContactThree";
 
 // const list = [
@@ -81,6 +81,7 @@ const PortfolioListContent = [
     {
         image: 'image-1',
         category: 'Application will enable you to view, create, and track daily workouts with the ability to log any exercise information or notes needed.',
+        technologies: 'Bootstrap, JQuery, Heroku, Express, Handlebars, MongoJS, Mongoose',
         title: 'Workout Tracker',
         link: "https://kingsleyramos-workout-tracker.herokuapp.com/",
         repo: "https://github.com/kingsleyramos/Workout-Tracker"
@@ -88,6 +89,7 @@ const PortfolioListContent = [
     {
         image: 'image-2',
         category: 'This application will log the burgers you will and the the burgers you have eaten so you can always remember those great burgers.',
+        technologies: 'Bootstrap, JQuery, Heroku, Express, Handlebars, MySQL',
         title: "Burger",
         link: "https://kingsleyramos-burger.herokuapp.com/",
         repo: "https://github.com/kingsleyramos/burger"
@@ -95,6 +97,7 @@ const PortfolioListContent = [
     {
         image: 'image-3',
         category: 'This responsive application displays the current weather and weather forecast of a city that is search and saves the searched city.',
+        technologies: 'Bootstrap, JQuery, Moment.js, OpenWeather API',
         title: "Weather Dashboard",
         link: "https://kingsleyramos.github.io/Weather-Dashboard/",
         repo: "https://github.com/kingsleyramos/Weather-Dashboard"
@@ -102,6 +105,7 @@ const PortfolioListContent = [
     {
         image: 'image-4',
         category: 'This applications is for users to be able to write and save notes, as well as delete notes they\'ve written before.',
+        technologies: 'Bootstrap, JQuery, Jest, Express, Heroku',
         title: "Note Taker",
         link: "https://kingsleyramos-note-taker.herokuapp.com/",
         repo: "https://github.com/kingsleyramos/Note-Taker"
@@ -109,6 +113,7 @@ const PortfolioListContent = [
     {
         image: 'image-5',
         category: 'This Node application is for a business owner to be able to view and manage departments, roles, and employees in their company in order to organize and plan their business.',
+        technologies: 'Node.js, Inquirer, console.table, MySQL, promise-mysql',
         title: "Employee Tracker",
         link: "",
         repo: "https://github.com/kingsleyramos/Employee-Tracker"
@@ -116,6 +121,7 @@ const PortfolioListContent = [
     {
         image: 'image-6',
         category: 'This Node application will assist managers in generating a webpage that displays their team\'s basic info for quick access to emails and GitHub Profiles.',
+        technologies: 'Bootstrap, Node.js, inquirer',
         title: "Employee Summary Webpage Engine",
         link: "",
         repo: "https://github.com/kingsleyramos/Template-Engine-Employee-Summary"
@@ -123,6 +129,7 @@ const PortfolioListContent = [
     {
         image: 'image-7',
         category: 'This is application generates a password depending on user selected character criteria: special, numeric, lowercase, uppercase, and length.',
+        technologies: 'Bootstrap',
         title: "Password Generator",
         link: "https://kingsleyramos.github.io/Password-Generator/",
         repo: "https://github.com/kingsleyramos/Password-Generator"
