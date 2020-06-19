@@ -33,7 +33,9 @@ class Header extends Component{
                 }
             }
         }
-        const { logo, color='default-color' } = this.props;
+        const { 
+            //logo, 
+            color='default-color' } = this.props;
         // let logoUrl;
         // if(logo === 'light'){
         //     logoUrl = <img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />;
