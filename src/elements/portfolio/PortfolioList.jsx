@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Fade from 'react-reveal/Zoom';
+// import Fade from 'react-reveal/Zoom';
+
 
 // const PortfolioListContent = [
 //     {
@@ -57,7 +58,7 @@ class PortfolioList extends Component{
                                 <div className="content">
                                     <div className="inner">
                                         <h4><a href="/portfolio-details">{value.title}</a></h4>
-                                        <p>{value.category}</p>
+                                        <p>{value.category} <b>Technologies: {value.technologies}</b></p>
                                         {/* <div className="portfolio-button">
                                             <a className="rn-btn" href={value.link}>View App</a>
                                         </div> */}
